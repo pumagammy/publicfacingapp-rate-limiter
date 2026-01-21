@@ -1,0 +1,33 @@
+{
+  "name": "publicfacingapp-rate-limiter",
+  "version": "1.0.0",
+  "description": "Public-facing Express app with request rate limiting",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "start:dev": "nodemon app.js",
+    "lint": "echo \"No linter configured yet\""
+  },
+  "keywords": [
+    "express",
+    "rate-limiter",
+    "api",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Nagamani",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
